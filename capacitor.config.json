@@ -12,7 +12,7 @@
   },
   "ios": {
     "backgroundColor": "#ffffff",
-    "contentInset": "automatic"
+    "contentInset": "never"
   },
   "plugins": {
     "SplashScreen": {
@@ -20,6 +20,11 @@
       "launchAutoHide": true,
       "backgroundColor": "#111111",
       "showSpinner": false
+    },
+    "SystemBars": {
+      "insetsHandling": "css",
+      "initialViewportFitValueHint": "cover",
+      "style": "LIGHT"
     },
     "FirebaseMessaging": {
       "presentationOptions": [

@@ -17,9 +17,11 @@ const config = {
     errorPath: "offline.html",
   },
   android: { backgroundColor: "#111111" },
-  ios: { backgroundColor: "#ffffff", contentInset: "automatic" },
+  ios: { backgroundColor: "#ffffff", contentInset: "never" },
   plugins: {
     SplashScreen: { launchShowDuration: 1200, launchAutoHide: true, backgroundColor: "#111111", showSpinner: false },
+    // The page asks for the whole screen (viewport-fit=cover); Android is told before it loads, so nothing shifts.
+    SystemBars: { insetsHandling: "css", initialViewportFitValueHint: "cover", style: "LIGHT" },
     FirebaseMessaging: { presentationOptions: ["badge", "sound", "alert"] },
   },
 };
