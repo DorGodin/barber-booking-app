@@ -1,0 +1,26 @@
+{
+  "name": "barber-booking-app",
+  "version": "1.0.0",
+  "scripts": {
+    "configure": "node scripts/configure.mjs",
+    "assets": "capacitor-assets generate --iconBackgroundColor \"#ffffff\" --splashBackgroundColor \"#111111\"",
+    "sync": "npm run configure && cap sync",
+    "android": "npm run sync && cap run android",
+    "ios": "npm run sync && cap run ios"
+  },
+  "license": "UNLICENSED",
+  "description": "TomGoldin Hair Design - the shop's app for iPhone and Android, around its booking page",
+  "dependencies": {
+    "@capacitor-firebase/messaging": "^8.5.2",
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/ios": "^8.5.3",
+    "@capacitor/network": "^8.0.1",
+    "@capacitor/splash-screen": "^8.0.2"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^8.5.3"
+  },
+  "private": true
+}

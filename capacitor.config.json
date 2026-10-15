@@ -1,0 +1,32 @@
+{
+  "appId": "il.co.tomgoldin.booking",
+  "appName": "TomGoldin",
+  "webDir": "www",
+  "server": {
+    "url": "http://10.0.2.2:8100",
+    "cleartext": true,
+    "errorPath": "offline.html"
+  },
+  "android": {
+    "backgroundColor": "#111111"
+  },
+  "ios": {
+    "backgroundColor": "#ffffff",
+    "contentInset": "automatic"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1200,
+      "launchAutoHide": true,
+      "backgroundColor": "#111111",
+      "showSpinner": false
+    },
+    "FirebaseMessaging": {
+      "presentationOptions": [
+        "badge",
+        "sound",
+        "alert"
+      ]
+    }
+  }
+}

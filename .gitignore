@@ -1,0 +1,12 @@
+node_modules/
+android/app/build/
+android/.gradle/
+android/build/
+ios/App/Pods/
+ios/DerivedData/
+.DS_Store
+# Firebase's files carry the project's keys - each copy brings its own
+android/app/google-services.json
+ios/App/App/GoogleService-Info.plist
+ios/App/build/
+android/local.properties
