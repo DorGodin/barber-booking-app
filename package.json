@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "configure": "node scripts/configure.mjs",
+    "set-version": "node scripts/version.mjs",
     "assets": "capacitor-assets generate --iconBackgroundColor \"#ffffff\" --splashBackgroundColor \"#111111\"",
     "sync": "npm run configure && cap sync",
     "android": "npm run sync && cap run android",
