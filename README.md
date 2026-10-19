@@ -48,3 +48,10 @@ Each copy needs its own Firebase project: `android/app/google-services.json` and
    and build the bundle Google Play takes: `cd android && ./gradlew bundleRelease` →
    `android/app/build/outputs/bundle/release/app-release.aab`. Android 13 and on ask before showing notifications
    (`POST_NOTIFICATIONS`), and the app's data is not backed up to the cloud (`allowBackup="false"`).
+
+## The store listing
+
+`store/` holds what the stores ask for besides the app: `listing.md` (the texts, in Hebrew, within each store's
+limits, and the reviewers' notes), `privacy-forms.md` (the answers to Apple's App Privacy and Google's Data safety,
+from what the code keeps), the screenshots (`screenshots/`, iPhone 6.9" and Android) and Google Play's icon and
+feature graphic.
