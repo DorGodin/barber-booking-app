@@ -13,7 +13,7 @@ The shop's real details (support e-mail, live address) go where `<...>` stands.
 | Account deletion URL (Google) | `https://<the live shop>/delete-account` |
 | Category | Apple: Lifestyle · Google: Beauty |
 | Age rating | Apple: 4+ · Google: Everyone (no violence, no user-to-user chat, no purchases) |
-| Contact e-mail | `<the shop's e-mail>` |
+| Contact e-mail (support) | GoldinSupport@gmail.com |
 
 ## App Store
 
