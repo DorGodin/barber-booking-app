@@ -10,3 +10,7 @@ android/app/google-services.json
 ios/App/App/GoogleService-Info.plist
 ios/App/build/
 android/local.properties
+# The key store builds are signed with, and its passwords: kept by the shop, never in git
+android/keystore.properties
+*.jks
+*.keystore
