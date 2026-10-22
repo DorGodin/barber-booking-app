@@ -1,5 +1,10 @@
 # TomGoldin - the app
 
+> **Paused (2026-10-22).** The shop goes out as a web page that customers add to their home screen, not through the
+> App Store or Google Play - the owner's decision. Nothing here is deleted: the app builds as it did, and the store
+> material (`store/`) is ready if that changes. The page itself, its home-screen icon, its page for no connection and
+> its notifications live in [barber-booking-api](https://github.com/DorGodin/barber-booking-api).
+
 The shop's app for iPhone and Android: [Capacitor](https://capacitorjs.com) around the booking page of
 [barber-booking-api](https://github.com/DorGodin/barber-booking-api). The page is the app - this repository
 holds what only a phone has: the icon, the black splash, the page shown when the shop cannot be reached,
